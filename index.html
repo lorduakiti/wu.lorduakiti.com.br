@@ -1,113 +1,185 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-	<meta http-equiv="Content-Type" content="text/html;" />
-	<meta http-equiv="Content-Language" content="en-us">
-	<meta charset="UTF-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<html lang="pt" data-theme="dark" class="__className_57e25f">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;" />
+		<meta http-equiv="Content-Language" content="en-us" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>LORDUAKITI</title>
-	<meta name="description" content="WU">
-	<meta name="author" 	   content="Uákiti Pires">
-	<meta name="keywords"   content="uakiti, uakiti pires, lorduakiti, wu, wanessa, wanessa flores, wanessa uakiti">
+		<title>WU</title>
+		<meta name="description" content="WU" />
+		<meta name="author" content="Uákiti Pires" />
+		<meta name="keywords" content="uakiti, uakiti pires, lorduakiti, wu, wanessa, wanessa flores, wanessa uakiti" />
 
-	<link rel="canonical" href="https://wu.lorduakiti.com.br/">
-	<!-- <base href="https://lorduakiti.com.br/"> -->
+		<link rel="canonical" href="https://wu.lorduakiti.com.br/" />
+		<!-- <base href="https://lorduakiti.com.br/"> -->
 
-	<link rel="icon" type="image/x-icon" href="/favicon.ico">
-	
-	<meta property="fb:page_id" content="106293620982349">
-	
-	<!-- Lomadee -->
-	<meta name="lomadee-verification" content="23024678" />
+		<link rel="preload" as="image" href="./favicon.ico">
+		<link rel="preload" as="image" href="./assets/images/me.webp">
+		<link rel="preload" href="./assets/css/font.woff2" as="font" crossorigin="" type="font/woff2">
+		<link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="32x32">
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-8735811-26"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		<meta property="fb:page_id" content="106293620982349" />
 
-	  gtag('config', 'UA-8735811-26');
-	</script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-8735811-26"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
 
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-WL32RNL');</script>
-	<!-- End Google Tag Manager -->
+			gtag("config", "UA-8735811-26");
+		</script>
 
-	<!-- Matomo -->
-	<script type="text/javascript">
-	  var _paq = window._paq || [];
-	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-	  _paq.push(['trackPageView']);
-	  _paq.push(['enableLinkTracking']);
-	  (function() {
-	    var u="https://lorduakiti.matomo.cloud/";
-	    _paq.push(['setTrackerUrl', u+'matomo.php']);
-	    _paq.push(['setSiteId', '1']);
-	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-	    g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.matomo.cloud/lorduakiti.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-	  })();
-	</script>
-	<!-- End Matomo Code -->
+		<!-- Google Tag Manager -->
+		<script>
+			(function (w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != "dataLayer" ? "&l=" + l : "";
+				j.async = true;
+				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, "script", "dataLayer", "GTM-WL32RNL");
+		</script>
+		<!-- End Google Tag Manager -->
 
-	<script type='text/javascript'>
-	//some default pre init
-	var Countly = Countly || {};
-	Countly.q = Countly.q || [];
 
-	//provide countly initialization parameters
-	Countly.app_key = '4c829d5e05aea6e25e233513fd3136ba36bb2b76';
-	Countly.url = 'https://lorduakiti.com.br';
+		<link rel="stylesheet" href="./assets/css/style.css" data-precedence="next">
+		<meta name="theme-color" content="#030D21">
+		<meta name="color-scheme" content="dark light">
 
-	Countly.q.push(['track_sessions']);
-	Countly.q.push(['track_pageview']);
-	Countly.q.push(['track_clicks']);
-	Countly.q.push(['track_scrolls']);
-	Countly.q.push(['track_errors']);
-	Countly.q.push(['track_links']);
-	Countly.q.push(['track_forms']);
-	Countly.q.push(['collect_from_forms']);
+		<script type="text/javascript">
+			console.log("%c Wellcome in my world!", "color:green");
+		</script>
+	</head>
+	<body class="bg-[#030D21] text-gray-100 overflow-x-hidden" cz-shortcut-listen="true" tabindex="0">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WL32RNL" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) -->
 
-	//load countly script asynchronously
-	(function() {
-	   var cly = document.createElement('script'); cly.type = 'text/javascript';
-	   cly.async = true;
-	   //enter url of script here
-	   cly.src = 'web/sdk/web/countly.min.js';
-	   cly.onload = function(){Countly.init()};
-	   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
-	})();
-	</script>
-  
-	<script type="text/javascript">
-		console.log('%c Wellcome in my world!', 'color:green');
-	</script>
+		<div>
+			<div class="relative bg-[#202020] rounded-lg shadow-2xl">
+				<div class="absolute top-4 left-4 flex gap-2">
+					<div class="size-3 bg-red-500 rounded-full"></div>
+					<div class="size-3 bg-yellow-500 rounded-full"></div>
+					<div class="size-3 bg-green-500 rounded-full"></div>
+				</div>
+				<div class="flex flex-col text-center gap-4 h-full overflow-y-auto">
+					<div class="bg-white mt-10 text-black w-[80%] mx-auto rounded-md"><span>Wanessa & Uákiti</span></div>
+					<div class="w-[80%] h-[60%] mx-auto overflow-hidden rounded-md flex-shrink-0"><img src="./assets/images/first_WU.jpg" alt="Foto casal" class="w-full h-full object-cover" /></div>
+					<div class="flex flex-col h-[85px] flex-shrink-0"><span class="mb-2">Juntos</span><span>8 anos, 6 meses, 11 dias</span><span>12 horas, 22 minutos e 52 segundos</span></div>
+					<div class="border w-40 mx-auto opacity-20 mt-1 flex-shrink-0"></div>
+					<div class="w-[80%] mx-auto flex-shrink-0 break-words mb-10">
+						<span>Nunca foi sorte, sempre foi Deus 🙏🏽 👩🏻‍⚕️👨🏽‍🚀<br /></span>
+					</div>
+					<div class="my-10 w-[90%] mx-auto">
+						<div class="h-full w-full">
+							<!-- 
+							<iframe
+								frameborder="0"
+								allowfullscreen=""
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								referrerpolicy="strict-origin-when-cross-origin"
+								title="É por você que canto (The Sound of Silence)"
+								width="100%"
+								height="100%"
+								src="https://www.youtube.com/embed/NS9xi3JwJqc?autoplay=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwu.lorduakiti.com.br&amp;widgetid=1"
+								id="widget2"
+								data-gtm-yt-inspected-6="true"
+							></iframe>
+							-->
+							<!-- 
+							<iframe 
+								width="560" 
+								height="315" 
+								src="https://www.youtube.com/embed/NS9xi3JwJqc?si=G8t5DYGgsDvHXMcg;autoplay=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwu.lorduakiti.com.br&amp;widgetid=1" 
+								title="YouTube video player" 
+								frameborder="0" 
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+								referrerpolicy="strict-origin-when-cross-origin" 
+								allowfullscreen
+							></iframe> 
+							-->
+							<iframe 
+								id="ytplayer"  
+								title="É por você que canto (The Sound of Silence)" 
+								type="text/html"  
+								width="100%"  
+								height="405" 
+								src="https://www.youtube.com/embed/NS9xi3JwJqc?autoplay=1&controls=0&enablejsapi=1&loop=1"
+								referrerpolicy="strict-origin-when-cross-origin" 
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								frameborder="0"   
+								allowfullscreen="" 
+								allowfullscreen  
+							></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="mt-36 bg-[#010C1D] border-t border-[#092049] py-14 text-slate-300">
+				<div class="flex flex-col items-center lg:flex-row max-w-6xl mx-auto text-sm gap-10">
+					<div class="flex flex-col gap-5 items-center lg:items-start">
+						<div class="flex flex-col gap-1 items-center lg:items-start text-center lg:text-left max-w-[80%] lg:max-w-[60%]">
+							<div class="flex gap-2 items-center"><img src="./assets/images/kiss.png" alt="logo" class="w-6 h-6" /><span class="text-xl font-bold">WU</span></div>
+							<span>Surpreendendo meu amor criando nosso contador de tempo de relacionamento</span
+							><span class="text-xs text-slate-400"
+								>Copyright ©
+								<!-- -->2024<!-- -->
+								-
+								<!-- -->Todos os direitos reservados</span
+							>
+						</div>
+						<div class="flex flex-col items-center lg:items-start gap-1">
+							<button class="flex items-center justify-center gap-3 border border-[#092049] rounded-md px-3 py-1 w-48 whitespace-nowrap">
+								<span>Feito por Uákiti Pires</span><img src="./assets/images/me.webp" class="size-6" alt="Logo" />
+							</button>
+							<div class="flex items-center gap-3 mt-1">
+								<span>Me siga no</span
+								><a target="_blank" class="flex items-center justify-center bg-black rounded-full p-1 border border-[#092049] size-6" href="https://www.threads.net/@lorduakiti"
+									><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 hover:text-[#FF0000]" viewBox="0 0 192 192" fill="currentColor">
+										<path
+											d="M141.537 88.988a66.667 66.667 0 00-2.518-1.143c-1.482-27.307-16.403-42.94-41.457-43.1h-.34c-14.986 0-27.449 6.396-35.12 18.036l13.779 9.452c5.73-8.695 14.724-10.548 21.348-10.548h.229c8.249.053 14.474 2.452 18.503 7.129 2.932 3.405 4.893 8.111 5.864 14.05-7.314-1.243-15.224-1.626-23.68-1.14-23.82 1.371-39.134 15.264-38.105 34.568.522 9.792 5.4 18.216 13.735 23.719 7.047 4.652 16.124 6.927 25.557 6.412 12.458-.683 22.231-5.436 29.049-14.127 5.178-6.6 8.453-15.153 9.899-25.93 5.937 3.583 10.337 8.298 12.767 13.966 4.132 9.635 4.373 25.468-8.546 38.376-11.319 11.308-24.925 16.2-45.488 16.351-22.809-.169-40.06-7.484-51.275-21.742C35.236 139.966 29.808 120.682 29.605 96c.203-24.682 5.63-43.966 16.133-57.317C56.954 24.425 74.204 17.11 97.013 16.94c22.975.17 40.526 7.52 52.171 21.847 5.71 7.026 10.015 15.86 12.853 26.162l16.147-4.308c-3.44-12.68-8.853-23.606-16.219-32.668C147.036 9.607 125.202.195 97.07 0h-.113C68.882.194 47.292 9.642 32.788 28.08 19.882 44.485 13.224 67.315 13.001 95.932L13 96v.067c.224 28.617 6.882 51.447 19.788 67.854C47.292 182.358 68.882 191.806 96.957 192h.113c24.96-.173 42.554-6.708 57.048-21.189 18.963-18.945 18.392-42.692 12.142-57.27-4.484-10.454-13.033-18.945-24.723-24.553zM98.44 129.507c-10.44.588-21.286-4.098-21.82-14.135-.397-7.442 5.296-15.746 22.461-16.735 1.966-.114 3.895-.169 5.79-.169 6.235 0 12.068.606 17.371 1.765-1.978 24.702-13.58 28.713-23.802 29.274z"
+											class="x19hqcy"
+										></path></svg></a
+								><a target="_blank" class="flex items-center justify-center bg-black rounded-full p-1 border border-[#092049] size-6" href="https://www.linkedin.com/in/uakiti/"
+									><svg xmlns="http://www.w3.org/2000/svg" class="size-4 hover:text-[#0077B5]" fill="currentColor" viewBox="0 0 24 24">
+										<path
+											d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
+										></path></svg></a
+								><a target="_blank" class="flex items-center justify-center bg-black rounded-full p-1 border border-[#092049] size-6" href="https://www.instagram.com/lorduakiti/"
+									><svg xmlns="http://www.w3.org/2000/svg" class="size-4 hover:text-[#E1306C]" fill="currentColor" viewBox="0 0 24 24">
+										<path
+											d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+										></path></svg
+								></a>
+							</div>
+						</div>
+					</div>
+					<div class="lg:ml-auto flex flex-col lg:flex-row gap-10 lg:gap-20">
+						<div class="flex flex-col gap-2">
+							<span class="text-slate-400 uppercase">Meus outros projetos</span>
+							<a target="_blank" href="https://foooxy.lorduakiti.com.br"><span>FOOOXYS</span></a>
+							<a target="_blank" href="https://projects.lorduakiti.com.br"><span>Portifolio</span></a>
+						</div>
+						<div class="flex flex-col gap-2">
+							<span class="text-slate-400 uppercase">Informações Legal</span>
+							<a target="_blank" href="/terms-of-use"><span>Termos de uso</span></a>
+							<a target="_blank" href="/privacy-policy"><span>Termos de privacidade</span></a>
+							<span>CNPJ: 34.894.159/0001-19</span>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
 
-</head>
-<body>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript>
-		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WL32RNL"  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-	</noscript>
-	<!-- End Google Tag Manager (noscript) -->
-
-	...
-
-	<!-- Lomadee  -->
-	<script type="text/javascript">
-		var lmdimgpixel=document.createElement('img');
-		lmdimgpixel.src='//secure.lomadee.com/pub.png?pid=23024678';
-		lmdimgpixel.id='lmd-verification-pixel-23024678';
-		lmdimgpixel.style='display:none';
-
-		var elmt = document.getElementsByTagName('body')[0];
-		elmt.appendChild(lmdimgpixel);
-	</script>
-</body>
+	</body>
 </html>
