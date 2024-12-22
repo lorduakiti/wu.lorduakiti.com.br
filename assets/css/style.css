@@ -1474,3 +1474,33 @@ textarea {
 	font-family: __Outfit_57e25f, __Outfit_Fallback_57e25f;
 	font-style: normal;
 }
+.floating-button {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #ff4e6d;
+	color: white;
+	border: none;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.floating-button:hover {
+	background-color: #e7032d;
+}
+.hidden-btn {
+	display: none !important;
+}
+.fade-in {
+	opacity: 0;
+	transition: opacity 2s ease-in;
+}
+.visible {
+	opacity: 1;
+}

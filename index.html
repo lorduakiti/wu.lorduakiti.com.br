@@ -15,10 +15,10 @@
 		<link rel="canonical" href="https://wu.lorduakiti.com.br/" />
 		<!-- <base href="https://lorduakiti.com.br/"> -->
 
-		<link rel="preload" as="image" href="./favicon.ico">
-		<link rel="preload" as="image" href="./assets/images/me.webp">
-		<link rel="preload" href="./assets/css/font.woff2" as="font" crossorigin="" type="font/woff2">
-		<link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="32x32">
+		<link rel="preload" as="image" href="./favicon.ico" />
+		<link rel="preload" as="image" href="./assets/images/me.webp" />
+		<link rel="preload" href="./assets/css/font.woff2" as="font" crossorigin="" type="font/woff2" />
+		<link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="32x32" />
 
 		<meta property="fb:page_id" content="106293620982349" />
 
@@ -49,10 +49,12 @@
 		</script>
 		<!-- End Google Tag Manager -->
 
+		<link rel="stylesheet" href="./assets/css/style.css" data-precedence="next" />
+		<meta name="theme-color" content="#030D21" />
+		<meta name="color-scheme" content="dark light" />
 
-		<link rel="stylesheet" href="./assets/css/style.css" data-precedence="next">
-		<meta name="theme-color" content="#030D21">
-		<meta name="color-scheme" content="dark light">
+		<script src="./assets/js/moment-with-locales.min.js"></script>
+		<script src="./assets/js/moment-timezone-with-data.min.js"></script>
 
 		<script type="text/javascript">
 			console.log("%c Wellcome in my world!", "color:green");
@@ -67,59 +69,36 @@
 
 		<div>
 			<div class="relative bg-[#202020] rounded-lg shadow-2xl">
-				<div class="absolute top-4 left-4 flex gap-2">
-					<div class="size-3 bg-red-500 rounded-full"></div>
-					<div class="size-3 bg-yellow-500 rounded-full"></div>
-					<div class="size-3 bg-green-500 rounded-full"></div>
-				</div>
 				<div class="flex flex-col text-center gap-4 h-full overflow-y-auto">
-					<div class="bg-white mt-10 text-black w-[80%] mx-auto rounded-md"><span>Wanessa & Uákiti</span></div>
-					<div class="w-[80%] h-[60%] mx-auto overflow-hidden rounded-md flex-shrink-0"><img src="./assets/images/first_WU.jpg" alt="Foto casal" class="w-full h-full object-cover" /></div>
-					<div class="flex flex-col h-[85px] flex-shrink-0"><span class="mb-2">Juntos</span><span>8 anos, 6 meses, 11 dias</span><span>12 horas, 22 minutos e 52 segundos</span></div>
+					<div class="bg-white mt-10 text-black w-[80%] mx-auto rounded-md">
+						<span>Wanessa & Uákiti</span>
+					</div>
+					<div class="w-[80%] h-[60%] mx-auto overflow-hidden rounded-md flex-shrink-0">
+						<img id="couple-photo" src="./assets/images/first_WU.jpg" alt="Foto casal" class="w-full h-full object-cover fade-in" />
+					</div>
+					<div class="flex flex-col h-[85px] flex-shrink-0" id="div-txt-timecount">
+						<span class="mb-2">Juntos</span>
+						<span id="date-count">atualizando..</span>
+						<span id="time-count">...</span>
+					</div>
 					<div class="border w-40 mx-auto opacity-20 mt-1 flex-shrink-0"></div>
 					<div class="w-[80%] mx-auto flex-shrink-0 break-words mb-10">
-						<span>Nunca foi sorte, sempre foi Deus 🙏🏽 👩🏻‍⚕️👨🏽‍🚀<br /></span>
+						<span>Foi porque deu errado que deu certo 🙏🏽 👩🏻‍⚕️👨🏽‍🚀<br /></span>
 					</div>
 					<div class="my-10 w-[90%] mx-auto">
 						<div class="h-full w-full">
-							<!-- 
 							<iframe
+								id="ytplayer"
+								title="É por você que canto (The Sound of Silence)"
+								type="text/html"
+								width="100%"
+								height="405"
+								src="https://www.youtube.com/embed/wdtn4BBDhlE?autoplay=1&controls=0&enablejsapi=1&loop=1"
+								referrerpolicy="strict-origin-when-cross-origin"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 								frameborder="0"
 								allowfullscreen=""
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								referrerpolicy="strict-origin-when-cross-origin"
-								title="É por você que canto (The Sound of Silence)"
-								width="100%"
-								height="100%"
-								src="https://www.youtube.com/embed/NS9xi3JwJqc?autoplay=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwu.lorduakiti.com.br&amp;widgetid=1"
-								id="widget2"
-								data-gtm-yt-inspected-6="true"
-							></iframe>
-							-->
-							<!-- 
-							<iframe 
-								width="560" 
-								height="315" 
-								src="https://www.youtube.com/embed/NS9xi3JwJqc?si=G8t5DYGgsDvHXMcg;autoplay=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwu.lorduakiti.com.br&amp;widgetid=1" 
-								title="YouTube video player" 
-								frameborder="0" 
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-								referrerpolicy="strict-origin-when-cross-origin" 
 								allowfullscreen
-							></iframe> 
-							-->
-							<iframe 
-								id="ytplayer"  
-								title="É por você que canto (The Sound of Silence)" 
-								type="text/html"  
-								width="100%"  
-								height="405" 
-								src="https://www.youtube.com/embed/NS9xi3JwJqc?autoplay=1&controls=0&enablejsapi=1&loop=1"
-								referrerpolicy="strict-origin-when-cross-origin" 
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								frameborder="0"   
-								allowfullscreen="" 
-								allowfullscreen  
 							></iframe>
 						</div>
 					</div>
@@ -181,5 +160,67 @@
 			</footer>
 		</div>
 
+		<button class="floating-button" id="play-music-btn" onclick="togglePlayPause()">🎶</button>
+		<button class="floating-button hidden-btn" id="pause-music-btn" onclick="togglePlayPause()">⏸️</button>
+		<audio id="audio" src="./assets/media/É Por Você Que Canto - Leandro & Leonardo.mp3"></audio>
+
+		<script>
+			// Criação do elemento de áudio
+			// const audio = new Audio("./assets/media/É Por Você Que Canto - Leandro & Leonardo.mp3");
+			const audio = document.getElementById("audio");
+			const playBtn = document.getElementById("play-music-btn");
+			const pauseBtn = document.getElementById("pause-music-btn");
+
+			audio.addEventListener("ended", function () {
+				playBtn.classList.remove("hidden-btn");
+				pauseBtn.classList.add("hidden-btn");
+			});
+
+			function togglePlayPause() {
+				if (audio.paused) {
+					audio.play().catch((error) => {
+						console.error("Erro ao tentar reproduzir o áudio:", error);
+					});
+					playBtn.classList.add("hidden-btn");
+					pauseBtn.classList.remove("hidden-btn");
+				} else {
+					audio.pause();
+					playBtn.classList.remove("hidden-btn");
+					pauseBtn.classList.add("hidden-btn");
+				}
+			}
+		</script>
+
+		<script>
+			moment.locale("pt-br");
+			console.log(moment.locale()); // pt-br
+
+			function updateTimeCount() {
+				const fisrt_day = moment.tz("2016-06-09 18:00:00", "America/Sao_Paulo");
+				let dt_now = moment();
+				let diff_dt = moment.duration(dt_now.diff(fisrt_day));
+				//console.log(fisrt_day);
+				//console.log(diff_dt);
+
+				let years = Math.floor(diff_dt.years());
+				let months = Math.floor(diff_dt.months());
+				let days = Math.floor(diff_dt.days());
+				let hours = Math.floor(diff_dt.hours());
+				let minutes = Math.floor(diff_dt.minutes());
+				let seconds = Math.floor(diff_dt.seconds());
+
+				document.getElementById("date-count").textContent = `${years} anos, ${months} meses, ${days} dias`;
+				document.getElementById("time-count").textContent = `${hours} horas, ${minutes} minutos e ${seconds} segundos`;
+			}
+
+			setInterval(updateTimeCount, 1000);
+		</script>
+
+		<script>
+			const couplePhoto = document.getElementById("couple-photo");
+			couplePhoto.onload = function () {
+				couplePhoto.classList.add("visible");
+			};
+		</script>
 	</body>
 </html>
